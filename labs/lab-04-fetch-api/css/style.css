@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  color: #1f2937;
+  background: linear-gradient(180deg, #eef4ff 0%, #f8fafc 100%);
+}
+
+header {
+  background: linear-gradient(135deg, #1d4ed8, #7c3aed);
+  color: #ffffff;
+  padding: 28px 20px 24px;
+  box-shadow: 0 8px 20px rgba(29, 78, 216, 0.2);
+}
+
+header h1 {
+  max-width: 900px;
+  margin: 0 auto 8px;
+  font-size: 2.2rem;
+}
+
+header p {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+main,
+footer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+main {
+  padding-top: 30px;
+}
+
+section {
+  margin-bottom: 24px;
+  padding: 22px 24px;
+  border: none;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+section h2 {
+  margin-top: 0;
+  color: #1d4ed8;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  font-weight: 600;
+  color: #334155;
+}
+
+input,
+select {
+  display: block;
+  width: 100%;
+  max-width: 420px;
+  padding: 12px 14px;
+  margin: 8px 0 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  background-color: #f8fafc;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #60a5fa;
+  box-shadow: 0 0 0 4px rgba(96, 165, 250, 0.18);
+}
+
+#studentId {
+  letter-spacing: 0.04em;
+}
+
+button {
+  padding: 12px 20px;
+  margin: 8px 8px 8px 0;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.25);
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+pre {
+  padding: 16px;
+  background: linear-gradient(180deg, #eff6ff, #f8fafc);
+  border-left: 5px solid #60a5fa;
+  border-radius: 12px;
+  white-space: pre-wrap;
+  color: #0f172a;
+}
+
+footer {
+  background: #0f172a;
+  color: #e2e8f0;
+  text-align: center;
+  border-radius: 20px 20px 0 0;
+  margin-top: 20px;
+  box-shadow: 0 -8px 20px rgba(15, 23, 42, 0.12);
+}
+
+footer p {
+  margin: 0;
+}
